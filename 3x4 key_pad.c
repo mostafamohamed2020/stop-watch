@@ -1,5 +1,5 @@
 /*
- * _3x4_key_pad.c
+ * _4x3_key_pad.c
  * this code interface a key pad with timer0 as a stop watch 
  * Created: 9/6/2020 10:55:40 PM
  *  Author: mostafa gomaa
@@ -11,10 +11,8 @@
 
 /*including key_pad header file*/
 #include "key_pad.h"
-
 #define no_of_overflows 1810/*number of overflows needed for counting one minute*/
 u_int16 ticks ; /*global variable acts like counter of overflows*/
-
 /*function happens when timer0 overflows*/
 ISR(TIMER0_OVF_vect)
 {
