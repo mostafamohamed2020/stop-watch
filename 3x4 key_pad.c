@@ -2,7 +2,7 @@
  * _4x3_key_pad.c
  * this code interface a key pad with timer0 as a stop watch 
  * Created: 9/6/2020 10:55:40 PM
- *  Author: mostafa gomaa mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm
+ *  Author: mostafa gomaa 
  */ 
 
 #include <avr/io.h>
